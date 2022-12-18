@@ -12,7 +12,7 @@ namespace basicCalculator
         {
             dynamic left = lhs;
             dynamic right = rhs;
-            return left + right;
+            return left / right;
 
         }
     }

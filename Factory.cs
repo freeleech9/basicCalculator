@@ -17,6 +17,7 @@ namespace basicCalculator
             };
         public Operations GetOperations(String CalcOperator)
         {
+            //Console.WriteLine(operations[CalcOperator]);
             return operations[CalcOperator];
         }
     }
