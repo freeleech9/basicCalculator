@@ -10,7 +10,7 @@
 
             Console.WriteLine("second number please");
             string val2 = Console.ReadLine();
-            double secondNum = Convert.ToInt32(val2);
+            double secondNum = Convert.ToDouble(val2);
 
             Console.WriteLine("operator please");
             string operatorSelection = Console.ReadLine();
@@ -19,7 +19,7 @@
 
             Operations getOperator = factory.GetOperations(operatorSelection);
             double result = getOperator.Operate(ref firstNum, ref secondNum);
-            Console.WriteLine(result);
+            Console.WriteLine("result is "+result);
         }
 
 

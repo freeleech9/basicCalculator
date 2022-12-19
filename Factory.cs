@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace basicCalculator
 {
-    internal class Factory {
+    class Factory {
         Dictionary<string, Operations> operations = new Dictionary<string, Operations>
             {
                 { "+", new Addition() },
